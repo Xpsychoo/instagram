@@ -1,0 +1,43 @@
+:root {
+  --ig-primary-background: 255, 255, 255;
+}
+
+.main-sec {
+  background-attachment: fixed;
+  background-color: #1a68d3;
+  background-image: radial-gradient(ellipse at bottom, #1a68d3 5%, transparent 60%), linear-gradient(136deg, transparent, #71c7ee 290%), linear-gradient(115deg, #9d9af1, transparent 40%), linear-gradient(180deg, transparent, #1a68d3 70%), radial-gradient(ellipse at -70% -180%, transparent 80%, #71c7ee 0), radial-gradient(ellipse at bottom, #1a68d3 40%, transparent 80%), radial-gradient(ellipse at 5% 340%, transparent 80%, #bfc2f4 0);
+  min-height: 92vh;
+  padding: 10px;
+}
+
+.main-sec.homePage {
+  position: relative;
+}
+
+.Main-Nav {
+  position: relative;
+  min-height: 3em;
+}
+
+.storyBox {
+  display: flex;
+  align-items: center;
+}
+
+.topNav {
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+.topNav .navBarsec {
+  width: 3em;
+  border-radius: 50%;
+  padding: 0px;
+}
+.topNav .navBarsec .navBarimg {
+  border-radius: 50%;
+}
+.topNav .navBarsec .dropdown-toggle::after {
+  display: none;
+}/*# sourceMappingURL=styles.css.map */
